@@ -1,4 +1,4 @@
-# Advancing Reinforcement Learning
+# Reinforcement Learning Experiments
 
 A comprehensive implementation of various reinforcement learning algorithms tested on OpenAI Gymnasium environments. This project includes implementations of REINFORCE, PPO, and SAC algorithms tested across multiple environments like LunarLander, BipedalWalker, CartPole, and more.
 
@@ -49,13 +49,14 @@ torch>=1.13.0
 gymnasium
 numpy
 scipy
+matplotlib
 ```
 
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/Advancing_RL.git
-cd Advancing_RL
+git clone https://github.com/lancastre22/RL_Experiments.git
+cd RL_Experiments
 pip install -r requirements.txt
 ```
 
@@ -69,7 +70,7 @@ python PPO_lunarlander.py     # Train LunarLander with PPO
 
 Test a trained model:
 ```bash
-python testPPOlunarlander.py --model_path "path/to/saved/model.pth"
+python testPPOlunarlander.py 
 ```
 
 ## Implemented Features
